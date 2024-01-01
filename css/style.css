@@ -197,10 +197,18 @@ p,
 
 .auto-container {
     position: static;
+    display: flex;
+    flex-direction: column;
+    gap : 51px;
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
     width: 100%;
+}
+
+.coming-soon-text{
+    align-self: center;
+    color :#FFFFFF;
 }
 
 .small-container {
@@ -11140,7 +11148,7 @@ Accordian Box
 
 .coming-soon .content .content-inner .logo {
     position: relative;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 .coming-soon .content .content-inner .sec-title {
